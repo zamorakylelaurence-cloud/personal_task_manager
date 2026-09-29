@@ -4,7 +4,7 @@
 WST21-PM-2026-SF
 
 ## Student Name
-[Your Full Name]
+Kyle Laurence D. Zamora
 
 ## Course & Year
 BSIT 2nd Year
