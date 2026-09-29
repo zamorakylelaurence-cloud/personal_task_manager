@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title', 'Task Manager')</title>
-   ```css
 <style>
 
     :root {
@@ -12,7 +11,7 @@
         --card: #11111B;
         --card-hover: #181827;
 
-        --primary: #4F46E5;
+        --primary: #a846e5;
         --primary-dark: #7C3AED;
         --accent: #06B6D4;
 
@@ -21,7 +20,7 @@
         --border: #27273A;
 
         --pending: #F59E0B;
-        --completed: #22C55E;
+        --completed: #ad22c5;
         --danger: #EF4444;
 
         --shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
@@ -37,12 +36,12 @@
         background:
             radial-gradient(
                 circle at 10% 20%,
-                rgba(79, 70, 229, 0.15),
+                rgba(78, 70, 229, 0.35),
                 transparent 35%
             ),
             radial-gradient(
                 circle at 90% 80%,
-                rgba(124, 58, 237, 0.12),
+                rgba(124, 58, 237, 0.31),
                 transparent 35%
             ),
             var(--bg);
@@ -209,9 +208,9 @@
     }
 
     .badge-completed {
-        background: rgba(34, 197, 94, 0.12);
-        color: #4ADE80;
-        border: 1px solid rgba(34, 197, 94, 0.25);
+        background: rgba(34, 86, 197, 0.66);
+        color: white;
+        border: 1px solid rgba(102, 34, 197, 0.65);
     }
 
     .overdue {
@@ -411,7 +410,7 @@
 </head>
 <body>
     <nav>
-        <span class="brand">📋 Task Manager</span>
+        <span class="brand">Task Manager</span>
         <a class="btn-new" href="{{ route('tasks.create') }}">+ New Task</a>
     </nav>
 

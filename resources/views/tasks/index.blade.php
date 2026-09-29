@@ -10,11 +10,11 @@
             <div class="label">Total Tasks</div>
         </div>
         <div class="stat">
-            <div class="num" style="color:#F59E0B">{{ $counts['pending'] }}</div>
+            <div class="num" style="color:##ad22c">{{ $counts['pending'] }}</div>
             <div class="label">Pending</div>
         </div>
         <div class="stat">
-            <div class="num" style="color:#22C55E">{{ $counts['completed'] }}</div>
+            <div class="num" style="color:#ad22c">{{ $counts['completed'] }}</div>
             <div class="label">Completed</div>
         </div>
     </div>
